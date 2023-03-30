@@ -1,11 +1,16 @@
-import "../src/App.css";
-
 function App() {
   return (
-    <div>
-      <h1>asdasd</h1>
-      <h2>asdasd</h2>
-      <h2>asdasdasdasdasdashdkajsdlkjalsdhkjlasd</h2>
+    <div className="bg-red-100 min-h-screen">
+      <header className="bg-blue-100 h-12 md:h-20">
+        <div className="max-w-screen-xl mx-auto h-full flex justify-between items-center">
+          <div>Jaewoo's Portfolio</div>
+          <ul className="flex gap-2 md:gap-8 text-xs md:text-base">
+            <li className="bg-indigo-300 btn-style">Introduce</li>
+            <li className="bg-purple-300 btn-style">Portfolio</li>
+            <li className="bg-blue-300 btn-style">Contact Me</li>
+          </ul>
+        </div>
+      </header>
     </div>
   );
 }
